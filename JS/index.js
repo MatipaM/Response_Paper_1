@@ -91,7 +91,7 @@ for(let i = 0; i<= 3; i++)
                 {
                     case 0:
                         gameName = "ChefRPG";
-                        source = "/Images/ChefRPG.png";
+                        source = "Images/ChefRPG.png";
 
                         p1 = document.createElement("li")
                         p1.innerText = "the 2-d pixel art is visually appealing";
@@ -158,15 +158,15 @@ for(let i = 0; i<= 3; i++)
                         source = "/Images/Sims4.png";
 
                         p1 = document.createElement("li")
-                        p1.innerText = "the 2-d pixel art is visually appealing";
+                        p1.innerText = "a world where players can interact with multiple spaces and engage with other characters, including NPCs.";
 
                         p2 = document.createElement("li")
-                        p2.innerText = "The developer has released youtube videos, detailing how he created each section of the game";
+                        // p2.innerText = "AI system for NPCs not that good. As soon as player switches to another character, original character is stuck in whatever residence/job level they were left at.";
 
                         positivePointsArray = [p1, p2];
 
                         n1 = document.createElement("li")
-                        n1.innerText = "the games has not been released yet";
+                        n1.innerText = "AI system for NPCs not that good. As soon as player switches to another character, original character is stuck in whatever residence/job level they were left at.";
 
                         negativePointsArray = [n1];
 
