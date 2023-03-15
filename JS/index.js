@@ -195,7 +195,7 @@ for(let i = 0; i<= 3; i++)
                 
                 csTextSection.append(csLink);
 
-                aside.append(title); DD
+                aside.append(title); 
                 aside.append(img);
                 aside.append(csTextSection);
                 aside.append(csLink);
