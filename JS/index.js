@@ -91,7 +91,7 @@ for(let i = 0; i<= 3; i++)
                 {
                     case 0:
                         gameName = "ChefRPG";
-                        source = "Images/ChefRPG.png";
+                        source = "JS/ChefRPG.png";
 
                         p1 = document.createElement("li")
                         p1.innerText = "the 2-d pixel art is visually appealing";
@@ -113,7 +113,7 @@ for(let i = 0; i<= 3; i++)
                         break;
                     case 1:
                         gameName = "Stardew Valley";
-                        source = "/Images/StardewValley.png";
+                        source = "JS/StardewValley.png";
 
                         p1 = document.createElement("li")
                         p1.innerText = "the 2-d pixel art is visually appealing";
@@ -134,7 +134,7 @@ for(let i = 0; i<= 3; i++)
                         break;
                     case 2:
                         gameName = "Animal Crossing";
-                        source = "/Images/AnimalCrossing.jpg";
+                        source = "JS/AnimalCrossing.jpg";
 
                         p1 = document.createElement("li")
                         p1.innerText = "the 2-d pixel art is visually appealing";
@@ -155,7 +155,7 @@ for(let i = 0; i<= 3; i++)
                         break;
                     case 3:
                         gameName = "Sims 4";
-                        source = "/Images/Sims4.png";
+                        source = "JS/Sims4.png";
 
                         p1 = document.createElement("li")
                         p1.innerText = "a world where players can interact with multiple spaces and engage with other characters, including NPCs.";
@@ -195,7 +195,7 @@ for(let i = 0; i<= 3; i++)
                 
                 csTextSection.append(csLink);
 
-                aside.append(title);
+                aside.append(title); DD
                 aside.append(img);
                 aside.append(csTextSection);
                 aside.append(csLink);
