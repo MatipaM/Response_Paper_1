@@ -91,7 +91,7 @@ for(let i = 0; i<= 3; i++)
                 {
                     case 0:
                         gameName = "ChefRPG";
-                        source = "../Images/ChefRPG.png";
+                        source = "/Images/ChefRPG.png";
 
                         p1 = document.createElement("li")
                         p1.innerText = "the 2-d pixel art is visually appealing";
@@ -113,7 +113,7 @@ for(let i = 0; i<= 3; i++)
                         break;
                     case 1:
                         gameName = "Stardew Valley";
-                        source = "../Images/StardewValley.png";
+                        source = "/Images/StardewValley.png";
 
                         p1 = document.createElement("li")
                         p1.innerText = "the 2-d pixel art is visually appealing";
@@ -134,7 +134,7 @@ for(let i = 0; i<= 3; i++)
                         break;
                     case 2:
                         gameName = "Animal Crossing";
-                        source = "../Images/AnimalCrossing.jpg";
+                        source = "/Images/AnimalCrossing.jpg";
 
                         p1 = document.createElement("li")
                         p1.innerText = "the 2-d pixel art is visually appealing";
@@ -154,8 +154,8 @@ for(let i = 0; i<= 3; i++)
                    
                         break;
                     case 3:
-                        gameName = "Oxenfree";
-                        source = "../Images/Oxenfree.jpg";
+                        gameName = "Sims 4";
+                        source = "/Images/Sims4.png";
 
                         p1 = document.createElement("li")
                         p1.innerText = "the 2-d pixel art is visually appealing";
