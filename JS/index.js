@@ -1,8 +1,10 @@
 let main = document.getElementById("main");
 
 let section1 = document.createElement("section");
+let article1 = document.createElement("article1");
 
 main.append(section1);
+main.append(article1);
 
 let h1 = document.createElement("h1");
 section1.append(h1);
@@ -34,7 +36,58 @@ h3b.innerHTML = "Other game inspitations: (detail what you like about each game)
 
 h2b.innerHTML = "Week 2: Architecture and Space";
 
-p2.innerHTML = "Write more about...";
+p2.innerHTML = "This week, I focused more on the smaller details as opposed to large factors such as gameplay and mechanics. I thought it would be approprtiate to use this week to determine the visual aesthetic of my game, as well as use what I learn this week about spaces, to recreate a space, which player interaction could be expanded upon. Within this build, I created a town which is divided by a road, on one side of the two are housing and shops/buildings for residents and opposite the road is a forest. I wanted the road to signal a clear parting between a calm forest and busy city life for residents. Upon further iteration in upcoming weeks. I plan to add in mini-games which the player can interact with when they enter each building. My aim is also to create a cohesive world where each minigame's outcome will contribute to the resources of the world in general.";
+
+// let W2img1 = document.createElement("img"); 
+let p2b = document.createElement("p");
+p2b = "In terms of spacing for the player, I thought it would be more apropriate for the player to always have a view of the world as a whole as opposed to a zoomed in view as the world is not that large. I also wanted to avoid the iritation/complication of player's having to find certain buildings/locations in order to complete certain tasks.";
+
+let imageComparison = document.createElement("section");
+let W2comparison1 = document.createElement("img"); 
+let W2comparison2 = document.createElement("img"); 
+let W2comparison1Heading = document.createElement("h3"); 
+let W2comparison2Heading = document.createElement("h3");
+
+
+// main.append(section2);
+
+for(let i=0; i<=3; i++)
+{
+    let heading = document.createElement("h2");
+    let subHeading=document.createElement("h3");
+    let pArray =[];
+
+    switch(i)
+    {
+        case 0:
+            heading.innerText = "Neuroscience";
+            subHeading.innerText = "";
+            let pa1 = "p1";
+            pArray.push(pa1);
+            break;
+        case 1:
+            heading.innerText = "Project Management";
+            subHeading.innerText = "";
+            let pb2 = "p1";
+            pArray.push(pb2);
+            break;
+        case 2:
+            heading.innerText = "Economy";
+            subHeading.innerText = "";
+            let pc3 = "p1";
+            pArray.push(pc3);
+            break;
+            
+    }
+
+    article1.append(heading);
+    article1.append(subHeading);
+    
+    for(let a=0; a<pArray.length; a++)
+    {
+        article1.append(pArray[a]);
+    }
+}
 
 for(let i = 0; i<= 3; i++)
 {
@@ -53,8 +106,20 @@ for(let i = 0; i<= 3; i++)
             section.append(p1);
             section.append(h3a);
             section.append(h3b);
-            section.append(h2b);
-            section.append(p2);
+           
+            
+
+            imageComparison.classList.add("imgCompareGrid");
+            imageComparison.append(W2comparison1Heading);
+            imageComparison.append(W2comparison2Heading);
+            imageComparison.append(W2comparison1);
+            imageComparison.append(W2comparison2);
+
+            W2comparison1Heading.innerText = "Close-Up";
+            W2comparison2Heading.innerText = "Long Shot";
+
+            W2comparison1.src = "Images/CloseUpView.png";
+            W2comparison2.src = "Images/LongShotView.png";
 
             break;
         case(2): 
@@ -219,4 +284,10 @@ for(let i = 0; i<= 3; i++)
     }
 
 };
+
+main.append(h2b);
+main.append(p2);
+main.append(p2b);
+main.append(imageComparison);
+main.append(article1);
 

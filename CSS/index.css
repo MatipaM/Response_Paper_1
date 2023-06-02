@@ -6,6 +6,20 @@
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.imgCompareGrid{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2,  0.1fr);
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+li{
+   list-style-type: none;
 }
 
 img{
@@ -44,5 +58,27 @@ aside a{
     font-weight: 200;
     text-transform: uppercase;
 }
+
+.ReferenceGrid{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.ReferenceGrid img{
+    width: auto;
+    height: auto;
+    max-width: 50%;
+    max-height: 50%;
+}
 /* comment */
 /* design for responsiveness */
+
+.ArchitectureHeading{
+    margin-top: 5%;
+}

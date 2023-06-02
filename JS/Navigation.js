@@ -58,3 +58,6 @@ for(let i = 0; i < navMenu.length; i++)
 }
 
 window.onresize = function(){ location.reload(); }
+
+//xampp server - download
+//mysql
