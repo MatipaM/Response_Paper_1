@@ -198,7 +198,7 @@ for(let i = 0; i<= 3; i++)
                         source = "Images/AnimalCrossing.jpg";
 
                         p1 = document.createElement("li")
-                        p1.innerText = "-	Completely customizable island. Player can create custom patterns which can be placed on almost any ground material (apart from the beach).";
+                        p1.innerText = "Completely customizable island. Player can create custom patterns which can be placed on almost any ground material (apart from the beach).";
 
                         p2 = document.createElement("li")
                         p2.innerText = "Player can customize their avatar’s outfits and appearance.";
@@ -206,7 +206,7 @@ for(let i = 0; i<= 3; i++)
                         positivePointsArray = [p1, p2];
 
                         n1 = document.createElement("li")
-                        n1.innerText = "-	Gameplay not as extensive. Gameplay can become boring when once player has achieved a five-star island and has no more tasks left.";
+                        n1.innerText = "Gameplay not as extensive. Gameplay can become boring when once player has achieved a five-star island and has no more tasks left.";
 
                         negativePointsArray = [n1];
 
@@ -222,12 +222,12 @@ for(let i = 0; i<= 3; i++)
                         p1.innerText = "Watching your sim/family grow.";
 
                         p2 = document.createElement("li")
-                        p2.innerText = "-	Whims, sims suggesting activities which they may enjoy makes them see more real.";
+                        p2.innerText = "Whims, sims suggesting activities which they may enjoy makes them see more real.";
 
                         positivePointsArray = [p1, p2];
 
                         n1 = document.createElement("li")
-                        n1.innerText = "-	If you are playing one sim in a world, another sim which you own will not age appropriately without your gameplay. E.g., if you leave a young adult sim in a university residence, they will age in that residence and die there, without completing their degree or starting the career, they have spent weeks studying for.";
+                        n1.innerText = "If you are playing one sim in a world, another sim which you own will not age appropriately without your gameplay. E.g., if you leave a young adult sim in a university residence, they will age in that residence and die there, without completing their degree or starting the career, they have spent weeks studying for.";
 
                         negativePointsArray = [n1];
 

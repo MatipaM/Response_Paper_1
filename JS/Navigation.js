@@ -11,6 +11,7 @@ let  nav = document.createElement("nav");
 header.append(nav);
 nav.classList.add("h-entry");
 nav.classList.add("#nav");
+nav.classList.add("nav");
 
 let ul = document.createElement("ul");
 nav.append(ul);

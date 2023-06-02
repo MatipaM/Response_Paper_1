@@ -1,6 +1,21 @@
+html{
+    background-color: rgb(241, 241, 241);
+}
+
+footer{
+    background-color: rgb(142, 142, 142);
+    margin-left: -5%;
+    margin-right: -5%;
+    margin-bottom: -5%;
+}
+
 body{
     margin-left: 5%;
     margin-right: 5%;
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: auto;
+
 }
 
 .grid{
@@ -23,8 +38,28 @@ body{
     margin-right: 2%; */
 }
 
-li{
+h1{
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+}
+
+nav li{
    list-style-type: none;
+   display: inline-block;
+   text-align: center;
+   margin-right: 25%;
+   border-radius: 5%;
+   background-color: lightgray;
+   padding: 1%
+}
+
+nav li:hover{
+    background-color: darkolivegreen;
 }
 
 img{
@@ -36,11 +71,12 @@ img{
 aside{
     background-color: lightgray;
     border-radius: 5%;
-    height: 120%;
+    margin-bottom: 5%;
 }
 
 aside:hover{
     background-color: darkolivegreen;
+    padding: 1.5%;
 }
 
 aside p{
