@@ -143,7 +143,7 @@ for(let i = 0; i<= 3; i++)
                 let p1;
                 let p2;
                 let n1;
-                let n2;
+                // let n2;
 
                 switch(j)
                 {
@@ -184,7 +184,7 @@ for(let i = 0; i<= 3; i++)
                         n1 = document.createElement("li")
                         n1.innerText = "Island given to user at beginning of gameplay is large and not well labelled, it therefore becomes difficult to find places on map which are not labelled. ";
 
-                        n2 = document.createElement("li")
+                        let n2 = document.createElement("li")
                         n2.innerText = "Overwhelming for beginner. I had to watch a lot of playthroughs to figure out how to complete initial tasks.";
 
                         negativePointsArray = [n1, n2];
@@ -244,12 +244,13 @@ for(let i = 0; i<= 3; i++)
 
                 for(let k = 0; k<positivePointsArray.length; k++)
                 {
+                    
                     csTextSection.append(positivePointsArray[k]);
                 }
                 
                 csTextSection.append(csConsHeading);
 
-                for(let k = 0; k<positivePointsArray.length; k++)
+                for(let k = 0; k<negativePointsArray.length; k++)
                 {
                     csTextSection.append(negativePointsArray[k]);
                 }
@@ -367,7 +368,7 @@ for(let i=0; i<=6; i++)
    
     section2a.append(h5c);
 
-    for(let a=0; a<=liArray.length; a++)
+    for(let a=0; a<liArray.length; a++)
     {
         section2a.append(liArray[a]);
     }
